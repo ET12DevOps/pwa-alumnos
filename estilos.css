@@ -1,3 +1,4 @@
+/* define clase css con nombre */
 .titulo {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     font-size: 24px;
@@ -17,4 +18,16 @@
     float: right;
     padding-right: 15%;
     padding-top: 7%;
+}
+
+/* aplica clase css a todos los elementos HTML con id encabezado */
+#encabezado {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: blue
+}
+
+/* aplica clase css a todos los elementos HTML h1 */
+h1 {
+    background-color: thistle
 }
